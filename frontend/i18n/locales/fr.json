@@ -1,0 +1,80 @@
+{
+  "errors": {
+    "default": "Quelque chose s'est mal passé",
+    "retryButton": "Réessayer",
+  },
+
+  "authpage": {
+    "title": "Se connecter",
+    "email": "Email",
+    "password": "Mot de passe",
+    "signIn": "Connexion"
+  },
+
+  "homepage": {
+    "welcome": "Bienvenue"
+  },
+
+  "profile": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "birthday": "Date de naissance",
+    "job": "Profession",
+    "signOut": "Déconnexion",
+    "sendMessage": "Envoyer un message",
+    "sendEmail": "Envoyer un email"
+  },
+
+  "employees": {
+    "title": "Trombinoscope",
+    "search": "Rechercher..."
+  },
+
+  "layout": {
+    "home": "Accueil",
+    "news": "Actualités",
+    "chat": "Messagerie",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "conversation": "Conversation",
+    "newChat": "Nouveau message"
+  },
+
+  "widgets": {
+    "emails": {
+      "allInBoxes": "Toutes les boîtes de réception"
+    },
+    "calendar": {
+      "weekdaysInitials": {
+        "monday": "L",
+        "tuesday": "M",
+        "wednesday": "M",
+        "thursday": "J",
+        "friday": "V",
+        "saturday": "S",
+        "sunday": "D"
+      },
+      "noEventsToday": "Pas d'évènements aujourd'hui"
+    },
+    "news": {
+      "localNews": "Actualités locales",
+      "topNews": "Actualités à la Une"
+    },
+    "birthdays": {
+      "birthdays": "Anniversaires",
+      "noBirthdayToday": "Pas d'anniversaire aujourd'hui",
+      "birthdayToday": "Aujourd'hui c'est l'anniversaire de:"
+    },
+    "discord": {
+      "sendButton": "Envoyer",
+      "placeholder": "Message..."
+    }
+  },
+
+  "convModal": {
+    "newChat": "Nouveau message",
+    "searchEmployee": "Rechercher un employé",
+    "search": "Rechercher..."
+  }
+}

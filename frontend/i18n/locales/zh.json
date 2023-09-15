@@ -1,0 +1,80 @@
+{
+  "errors": {
+    "default": "发生了一些问题",
+    "retryButton": "重试"
+  },
+
+  "authpage": {
+    "title": "登录",
+    "email": "电子邮件",
+    "password": "密码",
+    "signIn": "登录"
+  },
+
+  "homepage": {
+    "welcome": "欢迎"
+  },
+
+  "profile": {
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "email": "电子邮件",
+    "birthday": "出生日期",
+    "job": "职业",
+    "signOut": "退出",
+    "sendMessage": "发送消息",
+    "sendEmail": "发送电子邮件"
+  },
+
+  "employees": {
+    "title": "员工簿",
+    "search": "搜索..."
+  },
+
+  "layout": {
+    "home": "首页",
+    "news": "新闻",
+    "chat": "聊天",
+    "profile": "个人资料",
+    "settings": "设置",
+    "conversation": "对话",
+    "newChat": "新消息"
+  },
+
+  "widgets": {
+    "emails": {
+      "allInBoxes": "所有收件箱"
+    },
+    "calendar": {
+      "weekdaysInitials": {
+        "monday": "一",
+        "tuesday": "二",
+        "wednesday": "三",
+        "thursday": "四",
+        "friday": "五",
+        "saturday": "六",
+        "sunday": "日"
+      },
+      "noEventsToday": "今天没有事件"
+    },
+    "news": {
+      "localNews": "本地新闻",
+      "topNews": "头条新闻"
+    },
+    "birthdays": {
+      "birthdays": "生日",
+      "noBirthdayToday": "今天没有生日",
+      "birthdayToday": "今天是谁的生日："
+    },
+    "discord": {
+      "sendButton": "发送",
+      "placeholder": "消息"
+    }
+  },
+
+  "convModal": {
+    "newChat": "新消息",
+    "searchEmployee": "搜索员工",
+    "search": "搜索..."
+  }
+}

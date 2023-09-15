@@ -1,0 +1,80 @@
+{
+  "errors": {
+    "default": "Algo salió mal",
+    "retryButton": "Reintentar"
+  },
+
+  "authpage": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "signIn": "Iniciar sesión"
+  },
+
+  "homepage": {
+    "welcome": "Bienvenido"
+  },
+
+  "profile": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "birthday": "Fecha de nacimiento",
+    "job": "Profesión",
+    "signOut": "Cerrar sesión",
+    "sendMessage": "Enviar mensaje",
+    "sendEmail": "Enviar correo electrónico"
+  },
+
+  "employees": {
+    "title": "Libro de fotos",
+    "search": "Buscar..."
+  },
+
+  "layout": {
+    "home": "Inicio",
+    "news": "Noticias",
+    "chat": "Chat",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "conversation": "Conversación",
+    "newChat": "Nuevo mensaje"
+  },
+
+  "widgets": {
+    "emails": {
+      "allInBoxes": "Todos los buzones"
+    },
+    "calendar": {
+      "weekdaysInitials": {
+        "monday": "L",
+        "tuesday": "M",
+        "wednesday": "X",
+        "thursday": "J",
+        "friday": "V",
+        "saturday": "S",
+        "sunday": "D"
+      },
+      "noEventsToday": "No hay eventos hoy"
+    },
+    "news": {
+      "localNews": "Noticias locales",
+      "topNews": "Noticias principales"
+    },
+    "birthdays": {
+      "birthdays": "Cumpleaños",
+      "noBirthdayToday": "Hoy no hay cumpleaños",
+      "birthdayToday": "Hoy es el cumpleaños de:"
+    },
+    "discord": {
+      "sendButton": "Enviar",
+      "placeholder": "Mensaje..."
+    }
+  },
+
+  "convModal": {
+    "newChat": "Nuevo mensaje",
+    "searchEmployee": "Buscar empleado",
+    "search": "Buscar..."
+  }
+}

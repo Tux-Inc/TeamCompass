@@ -1,0 +1,80 @@
+{
+  "errors": {
+    "default": "Something went wrong",
+    "retryButton": "Retry"
+  },
+
+  "authpage": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In"
+  },
+
+  "homepage": {
+    "welcome": "Welcome"
+  },
+
+  "profile": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "birthday": "Date of Birth",
+    "job": "Profession",
+    "signOut": "Sign Out",
+    "sendMessage": "Send Message",
+    "sendEmail": "Send Email"
+  },
+
+  "employees": {
+    "title": "Photo Book",
+    "search": "Search..."
+  },
+
+  "layout": {
+    "home": "Home",
+    "news": "News",
+    "chat": "Chat",
+    "profile": "Profile",
+    "settings": "Settings",
+    "conversation": "Conversation",
+    "newChat": "New Message"
+  },
+
+  "widgets": {
+    "emails": {
+      "allInBoxes": "All Inboxes"
+    },
+    "calendar": {
+      "weekdaysInitials": {
+        "monday": "M",
+        "tuesday": "T",
+        "wednesday": "W",
+        "thursday": "T",
+        "friday": "F",
+        "saturday": "S",
+        "sunday": "S"
+      },
+      "noEventsToday": "No events today"
+    },
+    "news": {
+      "localNews": "Local News",
+      "topNews": "Top News"
+    },
+    "birthdays": {
+      "birthdays": "Birthdays",
+      "noBirthdayToday": "No birthday today",
+      "birthdayToday": "Today is the birthday of:"
+    },
+    "discord": {
+      "sendButton": "Send",
+      "placeholder": "Message..."
+    }
+  },
+
+  "convModal": {
+    "newChat": "New Message",
+    "searchEmployee": "Search Employee",
+    "search": "Search..."
+  }
+}

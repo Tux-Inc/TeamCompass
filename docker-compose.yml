@@ -1,0 +1,80 @@
+version: '3'
+
+services:
+  # MariaDB
+  db:
+    container_name: tc-db
+    image: mariadb:10.3
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+        - db_data:/var/lib/mysql
+        - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+        - "3306:3306"
+    networks:
+        - tc-network
+
+  # NestJS API
+  api:
+    container_name: tc-api
+    build: ./backend
+    restart: always
+    command: nest start --watch --preserveWatchOutput
+    ports:
+      - "3000:3000"
+    volumes:
+        - ./backend:/app
+        - ./backend/node_modules:/app/node_modules
+    depends_on:
+        - db
+    networks:
+        - tc-network
+    env_file:
+        - .env
+
+  # Expo frontend
+  expo:
+    container_name: tc-expo
+    build: ./frontend
+    restart: always
+    command: npx expo start --tunnel
+    ports:
+      - "8081:8081"
+    volumes:
+        - ./frontend:/app
+        - ./frontend/node_modules:/app/node_modules
+    networks:
+        - tc-network
+    env_file:
+        - .env
+
+  # Ngrok tunnel
+  ngrok:
+    container_name: tc-ngrok
+    image: ngrok/ngrok:latest
+    restart: always
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+      NGROK_DOMAIN: ${NGROK_DOMAIN}
+    command:
+      - "http"
+      - "--domain=${NGROK_DOMAIN}"
+      - "--log=stdout"
+      - "tc-api:3000"
+    ports:
+      - "4040:4040"
+    networks:
+        - tc-network
+
+
+networks:
+  tc-network:
+    driver: bridge
+
+volumes:
+    db_data:
