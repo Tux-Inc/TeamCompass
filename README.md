@@ -1,4 +1,4 @@
-## TeamCompass
+# TeamCompass
 
 A React Native cross-platform app for companies. Directives were given by a fictitious customer. This project is from the **Survivor Pool 2023 by Epitech**.
 
@@ -8,15 +8,15 @@ A React Native cross-platform app for companies. Directives were given by a fict
 - Docker
 
 ## Dependencies
-Ce Docker est destiné au developpement, Ouvrez une console rendez-vous dans le fichier frontend et backend:
+This docker-compose file must be used for development **ONLY** !
 
-ex:
+You must install all the dependencies manually while the containers relies on volumes to work. Install them like below :
 
     cd frontend
 
-then:
+    yarn install
 
-    npm install
+    cd ../backend
 
     yarn install
 
